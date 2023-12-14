@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: auto;
+    background-color: aqua;
+}
+.maincontainer input{
+   padding: 12px;
+   width: 100%;
+}
+.maincontainer div{
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+padding-inline: 25px;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#clearbtn{
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+}
